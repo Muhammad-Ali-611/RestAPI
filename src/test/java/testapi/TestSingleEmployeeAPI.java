@@ -7,11 +7,11 @@ public class TestSingleEmployeeAPI extends SingleEmployee {
 
     @Test
     public void singleEmployeeValidCall() {
-        getAllEmployeeRecourcesAPIValidCall();
+     getSingleEmployeeResourcesValidCall();
     }
 
     public void singleEmployeeInValidCall() {
-        getAllEmployeeRecourcesAPIInValidCall();
+        getSingleEmployeeResourcesInValidCall();
     }
 
     }
