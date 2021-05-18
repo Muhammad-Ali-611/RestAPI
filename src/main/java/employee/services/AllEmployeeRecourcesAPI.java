@@ -1,15 +1,15 @@
 package employee.services;
 
-import org.testng.Assert;
+import org.junit.Assert;
 
 import javax.xml.ws.Response;
 
-public class AllEmployeeResourcesAPI {
+public class AllEmployeeRecourcesAPI {
 
-    String baseUrl = "http://info.venturepulse.org:8080/service-webapp";
+    String base = "";
 
-    public void getAllEmployeeResourcesAPI(){
-        Response response = given().when().get(baseUrl+"/api/AllEmployeeResources").then().statusCode(200).extract().response();
+    public void getAllEmployeeRecourcesAPI(){
+        Response response = given().when().get(baseUrl+"+/AllEmployeeResources").then().statusCode(200);
         int statusCode = response.getStatusCode();
         String statusLine = response.getStatusLine();
         response.getBody().prettyPrint();
