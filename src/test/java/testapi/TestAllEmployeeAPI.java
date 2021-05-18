@@ -1,14 +1,11 @@
 package testapi;
 
-import org.testng.annotations.Test;
+import org.junit.Test;
 
 public class TestAllEmployeeAPI {
 
     @Test
    public void testAllEmployeeResources(){
-        getAllEmployeeResources();
-    }
 
-    private void getAllEmployeeResources() {
     }
 }
